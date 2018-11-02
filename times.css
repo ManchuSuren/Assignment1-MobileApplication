@@ -1,0 +1,147 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(202, 35%, 41%);
+    box-sizing: border-box;
+}
+    
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: serif,sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: serif,sans-serif;
+    font-size: 1.444em;
+    
+}
+p{
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1500;
+    margin: 0 2%;
+    background-color: hsl(202, 35%, 41%);
+        
+}
+.subnav{
+    display: flex;
+    justify-content:flex-end;
+   
+      
+    
+}
+.subnav a{
+    margin: 0 1%;
+    text-decoration: none;
+    color: black;
+    font-size:1.2em;
+}
+.mainnav{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    font-size: 1.2em;
+    
+    
+   
+    
+    
+    
+}
+.mainnav a{
+    text-decoration: none;
+    color: black;
+    font-size:1.5em;
+}
+.mainnav a:hover{
+    text-decoration: underline;
+}
+
+.masthead{
+   flex-direction: row;
+   justify-content:center;
+   margin: 0 2%;
+   background-color: hsl(202, 35%, 41%);
+}
+.times-logo{
+    
+}
+.masthead h1{
+    font-size: 1.2em;
+    justify-content:center;
+    background-color: hsl(202, 35%, 41%);
+    padding: 15px;
+    display: none;
+
+}
+.content{
+    font-size: 1.2em;
+    
+}
+.content .story{
+    
+    
+}
+.story.lead-story{
+    
+}
+
+.story.lead-story h1{
+    font-size: 2.222em;
+}
+h1.story-title{
+    padding: 10px;
+    color: black;
+    margin-left:-8px;
+    
+}
+.story img{
+float:left; 
+width:400;
+height:400;    
+padding: 16px;
+margin-left:-14px;
+}
+.story p{
+    font-size: 1.1em;
+    color: black;
+    text-align: justify;
+    
+}
+.story blockquote{
+    
+    color: black;
+    
+    padding: 10px;
+    text-align: center;
+}
+.story blockquote::before{
+    content: open-quote;
+    font-size:2em;
+}
+.story blockquote::after{
+    content: close-quote;
+    font-size:2em;
+}
+.story p.byline{
+   font-weight: bold; 
+}
+p.byline span.author{
+    color: black;
+}
+p.byline span.pub{
+    color: black;
+}
+.foot{
+    text-align: center;
+    color: black;
+}
+.foot p{
+    padding: 10px;
+    font-weight: bold;
+}
